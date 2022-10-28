@@ -169,9 +169,6 @@ body {
 .card-section {
   max-width: 1156px;
   min-height: 496px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(544px, 1fr));
-  justify-items: center;
   display: flex;
   flex-wrap: wrap;
   margin: 60px auto;
@@ -265,4 +262,10 @@ body {
   border: 2px solid var(--background-color-gray);
   border-radius: 5px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 648px) {
+  .card-section {
+    padding: 0px;
+  }
 }/*# sourceMappingURL=style.css.map */

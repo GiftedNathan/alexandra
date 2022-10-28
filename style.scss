@@ -192,9 +192,9 @@ body{
     max-width: 1156px;
     min-height: 496px;
     
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(544px, 1fr));
-    justify-items: center;
+    // display: grid;
+    // grid-template-columns: repeat(auto-fit, minmax(544px, 1fr));
+    // justify-items: center;
 
     display: flex;
     flex-wrap: wrap;
@@ -330,4 +330,11 @@ body{
         }
 
     }
+}
+
+@media screen and (max-width: 648px) {
+    .card-section{
+        padding: 0px;
+    }
+    
 }
