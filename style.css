@@ -439,6 +439,9 @@ body {
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
+  color: var(--background-color-gray);
+  outline: none;
+  border: 1px solid var(--background-color-gray);
 }
 .contact-section .contact-content form textarea {
   height: 170px;
