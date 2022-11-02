@@ -81,7 +81,7 @@ body {
 .hero {
   max-width: 920px;
   margin: 0px auto;
-  padding: 160px 30px;
+  padding: 160px 20px;
   position: relative;
 }
 .hero h1 {
@@ -113,9 +113,8 @@ body {
 .hero .connect .icons span {
   height: 20px;
   width: 20px;
-  margin-right: 10px;
-  border-radius: 4px;
-  background-color: var(--text-color);
+  margin-right: 15px;
+  cursor: pointer;
 }
 .hero .rectangle-6 {
   position: absolute;
@@ -170,6 +169,30 @@ body {
   left: 54.5%;
 }
 
+@media screen and (max-width: 648px) {
+  .hero {
+    margin-top: -120px;
+    z-index: 10;
+  }
+  .hero .rectangle-4 {
+    position: absolute;
+    top: 15.2%;
+    right: 11.5%;
+    width: 150px;
+    z-index: -5;
+  }
+  .hero .ellipes-3 {
+    position: absolute;
+    top: 21%;
+    right: -16px;
+    width: 150px;
+    z-index: -5;
+    opacity: 0.4;
+  }
+  .hero img:nth-child(1) {
+    display: none;
+  }
+}
 .card-section {
   max-width: 1156px;
   min-height: 496px;
@@ -328,9 +351,8 @@ body {
 .about-section-container .left-content .connect .icons span {
   height: 20px;
   width: 20px;
-  margin-right: 10px;
-  border-radius: 4px;
-  background-color: var(--text-color);
+  margin-right: 15px;
+  cursor: pointer;
 }
 .about-section-container .left-content .cta-btn {
   font-weight: 500;
